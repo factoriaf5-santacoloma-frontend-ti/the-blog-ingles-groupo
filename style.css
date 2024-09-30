@@ -1,16 +1,22 @@
 section {
-    display: grid;
+    display: flex;
     justify-content: center;
-    align-content: center;
-  
-    gap: 20;
-    grid-auto-flow: column;
-  }
-  .blog-card{
+    flex-wrap:wrap;
+}
+.greetings{
+    align-content: flex-start;
+    justify-content: center;
+    width: 300px;
+    background-color: yellow;
+    border-radius: 30px;
+    border-width: 30px;
+    border-style: solid;
+    border-color: yellow;
+}
+.blog-card{
     background-color: red;
     border-radius: 30px;
     border-width: 30px;
     border-style: solid;
     border-color: red;
-  }
-  
+}
